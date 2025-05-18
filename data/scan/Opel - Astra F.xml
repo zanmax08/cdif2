@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ScanBatch Title="Opel AstraF " HRef="">
+  
+  <ScanItem><!--17 X14XE, X16SZR, X16XEL MultecF; 16NZR Defita; C18SEL, X18XE, X20XEV Simtec 56.5  -->
+    <Command>$11</Command>
+    <Data>$11</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt>Skanowanie Opla AstraF pozwala na wyszukanie zdecydowanej większości sterowników zainstalowanych w pojeździe. Cały proces może trwać jednak kilka minut.</Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!--134 14SE, C14NZ, C14SE, 16LZ2, C16SE  Multec -->
+    <Command>$10</Command>
+    <Data>$86</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!--138 X16NE   Multec -->
+    <Command>$10</Command>
+    <Data>$8A</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+     
+  <ScanItem><!--146  18SE Motronic -->
+    <Command>$10</Command>
+    <Data>$91</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!--44 Skrzynia AF 13/14/20 -->
+    <Command>$10</Command>
+    <Data>$2C</Data>
+    <PinClass>K->3</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!--45 Skrzynia AF 13II/20/22/30 -->
+    <Command>$10</Command>
+    <Data>$2D</Data>
+    <PinClass>K->3</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!--32 ABS 2E -->
+    <Command>$11</Command>
+    <Data>$20</Data>
+    <PinClass>K->12</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!--31 TC-->
+    <Command>$10</Command>
+    <Data>$1F</Data>
+    <PinClass>K->12</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+      
+  <ScanItem><!-- 81 Immo -->
+    <Command>$10</Command>
+    <Data>$51</Data>
+    <PinClass>K->3</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!--97 Airbag-S -->
+    <Command>$10</Command>
+    <Data>$61</Data>
+    <PinClass>K->12</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+    
+  <ScanItem><!--68 Alarm -->
+    <Command>$10</Command>
+    <Data>$44</Data>
+    <PinClass>K->3</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+</ScanBatch>

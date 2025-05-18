@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ScanBatch Title="Opel CorsaC " HRef="">
+  
+  <ScanItem><!-- Z10ZE, Z12XE Me7.6; Z14Xe, Z16SE MultecH (Sv4); Y17DTL, Y17DT HDRC; Z18XE Ms71; Z13DT Multijet 6JF;  Z10XEP Z14XEP Motronic; Z17DTH DEC30; -->
+    <Command>$11</Command>
+    <Data>$11</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt>Skanowanie Opla CorsaC pozwala na wyszukanie zdecydowanej większości sterowników zainstalowanych w pojeździe. Cały proces może trwać jednak kilka minut.</Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+     
+  <ScanItem><!-- Skrzynia AF 13II/20/22/30; Easytronic MTA -->
+    <Command>$11</Command>
+    <Data>$18</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  
+  
+  <ScanItem><!-- ABS 5.3/54+TC; ABS8/ESP8 -->
+    <Command>$11</Command>
+    <Data>$28</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+    
+  <ScanItem><!-- Elektronic power steering -->
+    <Command>$11</Command>
+    <Data>$31</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- BCM -->
+    <Command>$11</Command>
+    <Data>$51</Data>
+    <PinClass>K->8</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Immo II -->
+    <Command>$11</Command>
+    <Data>$C0</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Airbag Temic -->
+    <Command>$11</Command>
+    <Data>$58</Data>
+    <PinClass>K->8</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+    
+  <ScanItem><!-- Instrument 2 -->
+    <Command>$10</Command>
+    <Data>$B9$00$C8</Data>
+    <PinClass>K->12</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Parking Heater -->
+    <Command>$11</Command>
+    <Data>$9A</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Klimatyzacja elektron -->
+    <Command>$10</Command>
+    <Data>$6D$00$C8</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Headlamp leveling device -->
+    <Command>$11</Command>
+    <Data>$70</Data>
+    <PinClass>K->8</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+</ScanBatch>

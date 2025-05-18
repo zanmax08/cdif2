@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ScanBatch Title="Renault - Skanowanie ISO + identyfikacja " HRef="">
+  
+  
+  <ScanItem><!-- Grupa 1 - Silnik  -->
+    <Command>$10</Command>
+    <Data>$7A</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>True</Extended>
+    <ExtendedScanCommands>
+       <Cmd0>$00$70$07$D0</Cmd0>
+       <Cmd1>$80$88$28$A0</Cmd1>
+       <Cmd2>$80$89$7A</Cmd2>
+       <Cmd3>$80$8A$31$50</Cmd3>
+       <Cmd4>$80$8A$31$51</Cmd4>
+       <Cmd5>$80$8A$31$52</Cmd5>
+    
+    	 <Cmd6>$00$70$07$D0</Cmd6>
+    	 <Cmd7>$80$10$28$A0</Cmd7>
+    	 <Cmd8>$80$11$7A</Cmd8>
+    	 <Cmd9>$80$22$82$7A$F1$21$80</Cmd9>
+    	 <Cmd10>$80$22$81$7A$F1$82</Cmd10>
+    </ExtendedScanCommands> 
+    <Prompt>Skanowanie Renault pozwala na wyszukanie zdecydowanej większości sterowników zainstalowanych w pojeździe po 94 roku. Cały proces może trwać kilka minut. Proszę włączyć zapłon.</Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 1 - Silnik  -->
+    <Command>$11</Command>
+    <Data>$7A$00</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>True</Extended>
+    <ExtendedScanCommands>
+       <Cmd0>$00$70$07$D0</Cmd0>
+       <Cmd1>$80$20$28$A0</Cmd1>
+       <Cmd2>$80$21$81$7A$F1</Cmd2>
+       <Cmd3>$80$22$82$7A$F1$21$80</Cmd3>
+       <Cmd4>$80$22$81$7A$F1$82</Cmd4>
+    </ExtendedScanCommands> 
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 2 - ABS/ESP  -->
+    <Command>$10</Command>
+    <Data>$01</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>True</Extended>
+    <ExtendedScanCommands>
+       <Cmd0>$00$70$07$D0</Cmd0>
+       <Cmd1>$80$88$28$A0</Cmd1>
+       <Cmd2>$80$89$01</Cmd2>
+       <Cmd3>$80$8A$31$50</Cmd3>
+       <Cmd4>$80$8A$31$51</Cmd4>
+       <Cmd5>$80$8A$31$52</Cmd5>
+    
+    	 <Cmd6>$00$70$07$D0</Cmd6>
+    	 <Cmd7>$80$10$28$A0</Cmd7>
+    	 <Cmd8>$80$11$01</Cmd8>
+    	 <Cmd9>$80$22$82$01$F1$21$80</Cmd9>
+    	 <Cmd10>$80$22$81$01$F1$82</Cmd10>
+    </ExtendedScanCommands> 
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 2 - ABS/ESP  -->
+    <Command>$11</Command>
+    <Data>$01$00</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>True</Extended>
+    <ExtendedScanCommands>
+       <Cmd0>$00$70$07$D0</Cmd0>
+       <Cmd1>$80$20$28$A0</Cmd1>
+       <Cmd2>$80$21$81$01$F1</Cmd2>
+       <Cmd3>$80$22$82$01$F1$21$80</Cmd3>
+       <Cmd4>$80$22$81$01$F1$82</Cmd4>
+    </ExtendedScanCommands> 
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 3 - Wskaźniki  -->
+    <Command>$10</Command>
+    <Data>$51</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 3 - Wskaźniki  -->
+    <Command>$11</Command>
+    <Data>$51$00</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 4 - Centralna elektryka  -->
+    <Command>$10</Command>
+    <Data>$26</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 4 - Centralna elektryka  -->
+    <Command>$11</Command>
+    <Data>$26$00</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 5 - Airbag  -->
+    <Command>$10</Command>
+    <Data>$2C</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>True</Extended>
+    <ExtendedScanCommands>
+       <Cmd0>$00$70$07$D0</Cmd0>
+       <Cmd1>$80$88$28$A0</Cmd1>
+       <Cmd2>$80$89$2C</Cmd2>
+       <Cmd3>$80$8A$31$50</Cmd3>
+       <Cmd4>$80$8A$31$51</Cmd4>
+       <Cmd5>$80$8A$31$52</Cmd5>
+    
+    	 <Cmd6>$00$70$07$D0</Cmd6>
+    	 <Cmd7>$80$10$28$A0</Cmd7>
+    	 <Cmd8>$80$11$2C</Cmd8>
+    	 <Cmd9>$80$22$82$2C$F1$21$80</Cmd9>
+    	 <Cmd10>$80$22$81$2C$F1$82</Cmd10>
+    </ExtendedScanCommands>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 5 - Airbag  -->
+    <Command>$11</Command>
+    <Data>$2C$00</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>True</Extended>
+    <ExtendedScanCommands>
+       <Cmd0>$00$70$07$D0</Cmd0>
+       <Cmd1>$80$20$28$A0</Cmd1>
+       <Cmd2>$80$21$81$2C$F1</Cmd2>
+       <Cmd3>$80$22$82$2C$F1$21$80</Cmd3>
+       <Cmd4>$80$22$81$2C$F1$82</Cmd4>
+    </ExtendedScanCommands> 
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+    
+  <ScanItem><!-- Grupa 7 - REGULATEUR DE DISTANCE  -->
+    <Command>$10</Command>
+    <Data>$0B</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 7 - REGULATEUR DE DISTANCE  -->
+    <Command>$11</Command>
+    <Data>$0B$00</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 8 - Klimatyzacja  -->
+    <Command>$10</Command>
+    <Data>$29</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 8 - Klimatyzacja  -->
+    <Command>$11</Command>
+    <Data>$29$00</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 9 - Skrzynia biegów  -->
+    <Command>$10</Command>
+    <Data>$6E</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 9 - Skrzynia biegów  -->
+    <Command>$11</Command>
+    <Data>$6E$00</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 10 - UNITE CENTRALE DE COMMUNICATION  -->
+    <Command>$10</Command>
+    <Data>$57</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 10 - UNITE CENTRALE DE COMMUNICATION  -->
+    <Command>$11</Command>
+    <Data>$57$00</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 11 - Synteza mowy  -->
+    <Command>$10</Command>
+    <Data>$52</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 11 - Synteza mowy  -->
+    <Command>$11</Command>
+    <Data>$52$00</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 12 - Gaz  -->
+    <Command>$10</Command>
+    <Data>$79</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 12 - Gaz  -->
+    <Command>$11</Command>
+    <Data>$79$00</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 13 - FREIN DE PARKING  -->
+    <Command>$10</Command>
+    <Data>$0D</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 13 - FREIN DE PARKING  -->
+    <Command>$11</Command>
+    <Data>$0D$00</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 41 - Wspomaganie parkowania  -->
+    <Command>$10</Command>
+    <Data>$0E</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa 41 - Wspomaganie parkowania  -->
+    <Command>$11</Command>
+    <Data>$0E$00</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa ?? - 12H prawdopodobnie Licznik   -->
+    <Command>$10</Command>
+    <Data>$12</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Grupa ?? - 12H prawdopodobnie Licznik   -->
+    <Command>$11</Command>
+    <Data>$12$00</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+</ScanBatch>

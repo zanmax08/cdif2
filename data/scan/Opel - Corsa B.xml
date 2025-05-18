@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ScanBatch Title="Opel CorsaB " HRef="">
+  
+  <ScanItem><!-- X10XE, X12XE M1.5.5; X14SZ, X14XE, X16XE, C14SEL, C16SEL MultecF -->
+    <Command>$11</Command>
+    <Data>$11</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt>Skanowanie Opla CorsaB pozwala na wyszukanie zdecydowanej większości sterowników zainstalowanych w pojeździe. Cały proces może trwać jednak kilkanascie minut.</Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- 12NZ, C12NZ, C14NZ, C14SE  Multec -->
+    <Command>$10</Command>
+    <Data>$86</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- X12SZ  Multec SZ -->
+    <Command>$10</Command>
+    <Data>$88</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- X14NE, X16NE  Multec M  ????? -->
+    <Command>$10</Command>
+    <Data>$8A</Data>
+    <PinClass>Default</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Skrzynia AF 13/14/20 -->
+    <Command>$10</Command>
+    <Data>$2C</Data>
+    <PinClass>K->3</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Skrzynia AF 13II/20/22/30 -->
+    <Command>$10</Command>
+    <Data>$2D</Data>
+    <PinClass>K->3</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- ABS 5.3/54 -->
+    <Command>$11</Command>
+    <Data>$28</Data>
+    <PinClass>K->12</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- ABS 5.3/54   trzeba sprawdzic ?????-->
+    <Command>$10</Command>
+    <Data>$21</Data>
+    <PinClass>K->12</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Elektronic power steering -->
+    <Command>$11</Command>
+    <Data>$31</Data>
+    <PinClass>K->3</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Immo -->
+    <Command>$10</Command>
+    <Data>$51</Data>
+    <PinClass>K->3</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Airbag-S -->
+    <Command>$10</Command>
+    <Data>$61</Data>
+    <PinClass>K->12</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Airbag-SAB6 -->
+    <Command>$10</Command>
+    <Data>$62</Data>
+    <PinClass>K->12</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  <ScanItem><!-- Alarm -->
+    <Command>$10</Command>
+    <Data>$44</Data>
+    <PinClass>K->3</PinClass>
+    <Timeout>20</Timeout>
+    <Extended>False</Extended>
+    <Prompt></Prompt>
+    <PromptNoClass></PromptNoClass>
+  </ScanItem>
+  
+  
+  
+  
+</ScanBatch>
